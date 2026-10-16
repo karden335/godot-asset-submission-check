@@ -31,6 +31,12 @@ Use `--json` in CI. Use `--strict` only when you want recommendations, such as r
 
 Passing the checker cannot prove that an add-on works, that its claims are accurate or that a moderator will approve it. Test the add-on in every declared Godot version and inspect the thumbnail at 320×180 before submission.
 
+## Optional preparation kit
+
+The [$3 Godot Asset Submission Guard kit](https://karrden.itch.io/godot-asset-submission-guard) adds a deterministic ZIP/report command, an offline 1280x720 thumbnail maker, editable listing and CI templates, a final upload checklist, factual moderator-reply templates, and a tested sample add-on.
+
+It is also included with the two other release-safety kits in the [$5 Godot Release Safety Bundle](https://itch.io/s/204610/godot-release-safety-bundle). The core checker in this repository remains free and MIT licensed.
+
 ## Configuration
 
 See [`sample/asset-guard.json`](sample/asset-guard.json) and [`sample/ASSET_STORE_SUBMISSION.md`](sample/ASSET_STORE_SUBMISSION.md). Relative paths resolve from the configuration file.
@@ -45,4 +51,4 @@ The Asset Store added a thumbnail-guidelines reminder on 2026-10-14 and its curr
 python3 -m unittest discover -s tests -v
 ```
 
-MIT licensed. Buying the optional preparation kit supports the tested templates, one-command packaging workflow and maintenance; this checker remains free.
+MIT licensed.
