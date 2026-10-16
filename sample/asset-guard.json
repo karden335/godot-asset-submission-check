@@ -1,0 +1,16 @@
+{
+  "name": "Example Godot Addon",
+  "version": "0.1.0",
+  "addon_directory": "example_addon",
+  "license": "MIT",
+  "uses_ai": true,
+  "archive": "dist/example-godot-addon-0.1.0.zip",
+  "thumbnail": "media/store-thumbnail.png",
+  "thumbnail_source": "media/store-thumbnail.svg",
+  "listing": "docs/ASSET_STORE_SUBMISSION.md",
+  "minimum_thumbnail": [1280, 720],
+  "thumbnail_max_bytes": 5000000,
+  "thumbnail_max_text_elements": 2,
+  "minimum_catalog_font_px": 20,
+  "catalog_width": 320
+}
